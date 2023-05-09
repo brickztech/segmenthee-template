@@ -45,6 +45,10 @@ ___TEMPLATE_PARAMETERS___
       {
         "value": "Shoprenter",
         "displayValue": "Shoprenter"
+      },
+      {
+        "value": "Custom",
+        "displayValue": "Custom"
       }
     ],
     "simpleValueType": true
@@ -275,6 +279,6 @@ scenarios: []
 
 ___NOTES___
 
-Created on 5/5/2023, 12:21:37 PM
+Created on 5/8/2023, 1:09:50 PM
 
 
