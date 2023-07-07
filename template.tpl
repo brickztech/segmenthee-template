@@ -136,7 +136,7 @@ const config = {
 };
 segmenthee('config', config);
 
-const url = 'https://segmentheecdn.blob.core.windows.net/static/segmenthee_b088b9a803191b3a2b2e.js';
+const url = 'https://segmentheecdn.blob.core.windows.net/static/segmenthee_08c366a0deae9e0c9e7b.js';
 injectScript(url, data.gtmOnSuccess, data.gtmOnFailure, url);
 
 
@@ -279,6 +279,6 @@ scenarios: []
 
 ___NOTES___
 
-Created on 5/8/2023, 1:09:50 PM
+Created on 7/7/2023, 1:48:52 PM
 
 
