@@ -15,6 +15,8 @@
 homepage: "https://segmenthee.com/"
 documentation: "https://github.com/brickztech/segmenthee-template"
 versions:
+  - sha: b122456195802b8eb1890286e42ff4f701524cf7
+    changeNotes: Segmenthee library updated to 0.0.4
   - sha: d42139349a5414592fa5ff32e19b98bab8ca4ca3
     changeNotes: Segmenthee library updatetd to 0.0.3
   - sha: 1749be142887ab55d8194d0a13aa62855248baa0 

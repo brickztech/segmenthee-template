@@ -136,7 +136,7 @@ const config = {
 };
 segmenthee('config', config);
 
-const url = 'https://segmentheecdn.blob.core.windows.net/static/segmenthee_08c366a0deae9e0c9e7b.js';
+const url = 'https://segmentheecdn.blob.core.windows.net/static/segmenthee_654e7826ac4a65a9eb0e.js';
 injectScript(url, data.gtmOnSuccess, data.gtmOnFailure, url);
 
 
