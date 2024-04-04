@@ -1,20 +1,16 @@
-﻿___TERMS_OF_SERVICE___
-
-By creating or modifying this file you agree to Google Tag Manager's Community
-Template Gallery Developer Terms of Service available at
-https://developers.google.com/tag-manager/gallery-tos (or such other URL as
-Google may provide), as modified from time to time.
-
-
-___INFO___
+﻿___INFO___
 
 {
   "type": "TAG",
   "id": "cvt_temp_public_id",
   "version": 1,
   "securityGroups": [],
-  "displayName": "Segmenthee library",
-  "categories": ["ANALYTICS", "MARKETING", "SALES"],
+  "displayName": "Segmenthee",
+  "categories": [
+    "ANALYTICS",
+    "MARKETING",
+    "SALES"
+  ],
   "brand": {
     "id": "brand_dummy",
     "displayName": "",
@@ -116,6 +112,13 @@ ___TEMPLATE_PARAMETERS___
     "displayName": "Decimal numbers",
     "simpleValueType": true,
     "defaultValue": 0
+  },
+  {
+    "type": "CHECKBOX",
+    "name": "isSpa",
+    "checkboxText": "SPA application",
+    "simpleValueType": true,
+    "defaultValue": false
   }
 ]
 
@@ -132,11 +135,13 @@ const config = {
   marketingTool: data.marketingTool,
   endpointUrl: data.endpointUrl, 
   decimalNumbers: data.decimalNumbers,
-  marketingEventMap: data.marketingEventMap
+  marketingEventMap: data.marketingEventMap,
+  isSpa: data.isSpa
 };
 segmenthee('config', config);
 
-const url = 'https://segmentheecdn.blob.core.windows.net/static/segmenthee_654e7826ac4a65a9eb0e.js';
+const url = 'https://segmentheecdn.blob.core.windows.net/static/segmenthee_aaaa7bdedd9320fe22db.js';
+
 injectScript(url, data.gtmOnSuccess, data.gtmOnFailure, url);
 
 
